@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace IndianStateCensusAnalyser
 {
-    class Program
+    public class CensusAnalyser
     {
-        static void Main(string[] args)
+        //To declare constants
+        public enum Country
         {
-            Console.WriteLine("Welcome to Indian State Census Analyser Program");
+            INDIA
         }
     }
 }
